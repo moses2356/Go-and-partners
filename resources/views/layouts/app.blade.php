@@ -15,58 +15,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
 
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        primary: "#19203d",
-                        secondary: "#62C4C9",
-                        accent: "#22d3ee", // Cyan primary from new design
-                        "background-light": "#F2F4F6",
-                        "background-dark": "#0f1326",
-                        "text-light": "#333333",
-                        "text-dark": "#f3f4f6",
-                        // Re-mapping for the new design's usage
-                        "cyan-primary": "#22d3ee",
-                        "new-bg-dark": "#19203d",
-                    },
-                    fontFamily: {
-                        display: ['Montserrat', 'sans-serif'],
-                        body: ['Inter', 'Open Sans', 'sans-serif'],
-                        serif: ["'Playfair Display'", "serif"],
-                    },
-                    borderRadius: {
-                        DEFAULT: "0.5rem",
-                        'xl': "1rem",
-                        '2xl': "1.5rem",
-                        'custom': '60px',
-                    },
-                    backgroundImage: {
-                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                    },
-                    animation: {
-                        'spin-slow': 'spin 20s linear infinite',
-                        'scroll': 'scroll-down 2s ease-in-out infinite',
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        'scroll-down': {
-                            '0%, 100%': { transform: 'translateY(-100%)', opacity: 0 },
-                            '50%': { transform: 'translateY(0)', opacity: 1 },
-                        },
-                        'float': {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        }
-                    },
-                },
-            },
-        };
-    </script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         .outline-text {
             -webkit-text-stroke: 1px #9ca3af;
