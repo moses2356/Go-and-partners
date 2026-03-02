@@ -244,11 +244,11 @@
 
         @keyframes liquid-flow {
             0% {
-                transform: translateY(-100%);
+                transform: translateY(-50%);
             }
 
             100% {
-                transform: translateY(100%);
+                transform: translateY(50%);
             }
         }
 
@@ -256,13 +256,13 @@
 
             0%,
             100% {
-                opacity: 0.1;
-                transform: scaleY(0.9);
+                opacity: 0.05;
+                transform: scaleY(0.95);
             }
 
             50% {
-                opacity: 0.4;
-                transform: scaleY(1.1);
+                opacity: 0.15;
+                transform: scaleY(1.05);
             }
         }
 

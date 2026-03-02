@@ -1,5 +1,5 @@
 <!-- Gary Ong Profile Section -->
-<section id="gary-ong-profile" class="relative overflow-hidden bg-[#F8FAFC] dark:bg-background-dark">
+<section id="gary-ong-profile" class="relative overflow-hidden bg-background-light dark:bg-background-dark">
 
     <!-- ===== MOBILE LAYOUT (< lg) ===== -->
     <div class="lg:hidden flex flex-col">
@@ -27,7 +27,7 @@
             <div
                 class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/20 to-transparent pointer-events-none">
             </div>
-            <img src="{{ asset('images/garyong.png') }}" alt="Portrait of Gary Ong"
+            <img src="{{ asset('images/garyong.webp') }}" alt="Portrait of Gary Ong"
                 class="h-[110%] w-auto object-cover object-bottom drop-shadow-[0_15px_15px_rgba(0,0,0,0.6)] relative z-10" />
         </div>
         <!-- White skills panel -->
@@ -112,7 +112,7 @@
             <!-- CENTER: Gary Photo (Absolute positioned to overlap cleanly) -->
             <div
                 class="absolute left-[50%] top-auto bottom-0 -translate-x-1/2 z-20 w-[500px] xl:w-[600px] flex justify-center items-end pointer-events-none select-none h-[100%]">
-                <img src="{{ asset('images/garyong.png') }}" alt="Portrait of Gary Ong"
+                <img src="{{ asset('images/garyong.webp') }}" alt="Portrait of Gary Ong"
                     class="w-auto h-auto min-h-[500px] max-h-[96%] object-contain object-bottom drop-shadow-[0_20px_25px_rgba(0,0,0,0.5)]"
                     data-reveal="fade-in" style="animation-delay: 0.3s;" />
             </div>

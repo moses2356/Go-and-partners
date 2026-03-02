@@ -1,7 +1,8 @@
 <section
-    class="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden px-4 md:px-12 py-12 md:py-16 bg-[#F8FAFC] dark:bg-background-dark">
+    class="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden px-4 md:px-12 py-12 md:py-16">
     <!-- Background Curved Lines (Perfectly framing the circle) -->
-    <div class="absolute inset-0 pointer-events-none opacity-40 dark:opacity-20 z-0" data-reveal="fade-in">
+    <div class="absolute inset-0 pointer-events-none opacity-40 dark:opacity-20 z-0" data-reveal="fade-in"
+        style="mask-image: linear-gradient(to bottom, black 60%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);">
         <svg class="w-full h-full" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="xMidYMid slice">
             <path d="M1440 100C1200 300 1100 400 850 430C600 460 300 650 -100 700" stroke="#62C4C9" stroke-width="3" />

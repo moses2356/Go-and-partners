@@ -1,8 +1,9 @@
-<main
+<main id="origin-story"
     class="relative min-h-screen flex flex-col md:flex-row items-stretch overflow-visible bg-white dark:bg-background-dark">
     <!-- Animated Flowing Ribbon -->
     <svg class="absolute left-1/2 -translate-x-1/2 top-0 h-full w-[200px] z-10 pointer-events-none hidden lg:block"
-        preserveAspectRatio="none" viewBox="0 0 100 800">
+        preserveAspectRatio="none" viewBox="0 0 100 800"
+        style="mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);">
         <!-- Layer 1: Base Track -->
         <path class="animate-water-base" d="M50 0 Q 100 150 50 300 T 50 600 T 50 800" fill="none" stroke="#2dd4bf"
             stroke-linecap="round" stroke-width="4"></path>
@@ -15,7 +16,8 @@
             stroke-linecap="round" stroke-width="4"></path>
     </svg>
 
-    <section class="w-full md:w-1/2 min-h-screen flex flex-col justify-center px-8 md:px-16 lg:px-24 py-20 relative">
+    <section
+        class="w-full md:w-1/2 min-h-screen flex flex-col justify-center px-8 md:px-16 lg:px-24 py-12 md:py-20 relative">
         <div class="mb-12 relative z-20" data-reveal="reveal-up" style="animation-delay: 0.2s">
             <h1 class="font-display leading-none mb-12">
                 <span class="block text-4xl md:text-6xl outline-text font-light tracking-tight mb-2">THE</span>
@@ -48,7 +50,7 @@
     <section class="w-full md:w-1/2 min-h-[50vh] md:min-h-screen relative bg-slate-100 dark:bg-slate-900">
         <img alt="White and blue origami paper boats"
             class="absolute inset-0 w-full h-full object-cover grayscale-[20%] brightness-95 dark:brightness-50"
-            data-reveal="fade-in" src="{{ asset('images/premium_origami_background.jpg') }}" />
+            data-reveal="fade-in" src="{{ asset('images/premium_origami_background.webp') }}" />
         <div class="absolute inset-0 bg-gradient-to-r from-white/40 to-transparent dark:from-background-dark/40 z-10">
         </div>
 

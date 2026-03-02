@@ -1,4 +1,4 @@
-<section class="min-h-screen pt-24 md:pt-40 pb-20 px-4 md:px-12 flex flex-col justify-center relative z-10">
+<section class="min-h-screen pt-16 md:pt-40 pb-20 px-4 md:px-12 flex flex-col justify-center relative z-10">
     <div class="max-w-4xl mx-auto mb-16 md:mb-24 text-center">
         <h1 class="text-slate-400 dark:text-slate-500 uppercase tracking-[0.4em] font-bold text-[10px] md:text-xs mb-6">
             Core Philosophy</h1>

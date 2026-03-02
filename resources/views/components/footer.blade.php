@@ -9,13 +9,19 @@
             <!-- Column 1: Brand & Tagline -->
             <div class="lg:col-span-1 flex flex-col items-start reveal-up" style="animation-delay: 0.1s">
                 <a href="/" class="flex mb-6 group cursor-pointer inline-block">
-                    <img src="{{ asset('images/go and partners footer.png') }}" alt="GO & PARTNERS Logo"
+                    <img src="{{ asset('images/go and partners footer.webp') }}" alt="GO & PARTNERS Logo"
                         class="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
                 </a>
-                <p class="text-slate-400 font-light leading-relaxed mb-6 max-w-sm">
-                    Empowering organizations with extraordinary leadership. Trusted advisors dedicated to building
-                    enduring legacies through human connection.
-                </p>
+                <div class="mb-6 leading-[1.1]">
+                    <p class="text-5xl font-black uppercase"
+                        style="-webkit-text-stroke: 1.5px rgba(255,255,255,0.7); color: transparent;">
+                        Shifting</p>
+                    <p class="text-5xl font-black uppercase"
+                        style="-webkit-text-stroke: 1.5px rgba(255,255,255,0.7); color: transparent;">
+                        Mindset</p>
+                    <p class="text-5xl font-black uppercase text-white">Powering</p>
+                    <p class="text-5xl font-black uppercase text-white">Change</p>
+                </div>
             </div>
 
             <!-- Column 2: Quick Links -->
@@ -23,31 +29,51 @@
                 <h3 class="text-sm font-black uppercase tracking-[0.2em] text-slate-500 mb-6">Explore</h3>
                 <ul class="space-y-4 font-medium text-slate-300">
                     <li>
-                        <a href="#" class="hover:text-secondary transition-colors duration-300 flex items-center group">
+                        <a onclick="smoothScrollTo('who-we-are')"
+                            class="hover:text-secondary transition-colors duration-300 flex items-center group cursor-pointer">
                             <span
                                 class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
-                            Home
+                            Who We Are
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="hover:text-secondary transition-colors duration-300 flex items-center group">
-                            <span
-                                class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-secondary transition-colors duration-300 flex items-center group">
-                            <span
-                                class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:text-secondary transition-colors duration-300 flex items-center group">
+                        <a onclick="smoothScrollTo('origin-story')"
+                            class="hover:text-secondary transition-colors duration-300 flex items-center group cursor-pointer">
                             <span
                                 class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
                             The Origin Story
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="smoothScrollTo('milestones-section')"
+                            class="hover:text-secondary transition-colors duration-300 flex items-center group cursor-pointer">
+                            <span
+                                class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
+                            Milestones
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="smoothScrollTo('finding-leaders')"
+                            class="hover:text-secondary transition-colors duration-300 flex items-center group cursor-pointer">
+                            <span
+                                class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
+                            Leaders
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="smoothScrollTo('our-dna')"
+                            class="hover:text-secondary transition-colors duration-300 flex items-center group cursor-pointer">
+                            <span
+                                class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
+                            Our DNA
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="smoothScrollTo('gary-ong-profile')"
+                            class="hover:text-secondary transition-colors duration-300 flex items-center group cursor-pointer">
+                            <span
+                                class="h-px w-0 bg-secondary group-hover:w-4 transition-all duration-300 mr-0 group-hover:mr-3"></span>
+                            Leadership
                         </a>
                     </li>
                 </ul>

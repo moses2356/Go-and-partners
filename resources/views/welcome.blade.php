@@ -28,5 +28,8 @@
     @include('partials.home.milestones')
     @include('partials.home.finding-leaders')
     @include('partials.home.our-dna')
+    @include('partials.home.core-values')
+    @include('partials.home.executive-search')
+    @include('partials.home.industry-practices')
     @include('partials.home.gary-ong')
 @endsection

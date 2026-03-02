@@ -45,33 +45,18 @@
             <svg class="absolute top-1/2 left-0 w-full h-48 -translate-y-1/2 md:hidden lg:block pointer-events-none z-0"
                 preserveAspectRatio="none">
                 <defs>
-                    <filter height="150%" id="glow" width="150%" x="-25%" y="-25%">
-                        <feGaussianBlur result="blur" stdDeviation="5"></feGaussianBlur>
-                        <feComposite in="SourceGraphic" in2="blur" operator="over"></feComposite>
-                    </filter>
                     <linearGradient id="lineGradient" x1="0%" x2="100%" y1="0%" y2="0%">
                         <stop offset="0%" stop-color="#4FD1C5" stop-opacity="0"></stop>
-                        <stop offset="10%" stop-color="#4FD1C5" stop-opacity="0.5"></stop>
-                        <stop offset="90%" stop-color="#4FD1C5" stop-opacity="0.5"></stop>
+                        <stop offset="20%" stop-color="#4FD1C5" stop-opacity="0.3"></stop>
+                        <stop offset="80%" stop-color="#4FD1C5" stop-opacity="0.3"></stop>
                         <stop offset="100%" stop-color="#4FD1C5" stop-opacity="0"></stop>
                     </linearGradient>
                 </defs>
-                <path d="M0,100 Q150,150 300,100 T600,100 T900,100 T1200,100" fill="none"
-                    stroke="rgba(79, 209, 197, 0.2)" stroke-width="4"></path>
-
-                <!-- Flowing Line -->
-                <path class="animate-path"
+                <!-- Simple Static Background Wave -->
+                <path
                     d="M-50,120 C150,160 200,40 350,90 C450,140 550,40 650,90 C750,140 850,40 950,90 C1050,140 1100,60 1300,120"
-                    fill="none" filter="url(#glow)" stroke="url(#lineGradient)" stroke-linecap="round" stroke-width="4">
+                    fill="none" stroke="url(#lineGradient)" stroke-linecap="round" stroke-width="2">
                 </path>
-
-                <!-- Moving Glowing Particle with Fade in/out to hide jump -->
-                <circle r="6" fill="#fff" filter="url(#glow)">
-                    <animateMotion dur="6s" repeatCount="indefinite"
-                        path="M-50,120 C150,160 200,40 350,90 C450,140 550,40 650,90 C750,140 850,40 950,90 C1050,140 1100,60 1300,120" />
-                    <animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.1;0.5;0.9;1" dur="6s"
-                        repeatCount="indefinite" />
-                </circle>
             </svg>
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4 relative z-10">
                 <div
@@ -86,9 +71,7 @@
                                 class="material-icons-round text-white group-hover:text-secondary transition-colors duration-300"
                                 style="font-size: 70px;">groups</span>
                         </div>
-                        <div
-                            class="absolute inset-0 -m-2 border border-secondary/30 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500 ease-out">
-                        </div>
+                        <!-- removed expanding hover rings -->
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">People
                     </h3>
@@ -108,9 +91,7 @@
                                 class="material-icons-round text-white group-hover:text-secondary transition-colors duration-300"
                                 style="font-size: 55px;">volunteer_activism</span>
                         </div>
-                        <div
-                            class="absolute inset-0 -m-2 border border-secondary/30 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500 ease-out">
-                        </div>
+                        <!-- removed expanding hover rings -->
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">Passion
                     </h3>
@@ -130,9 +111,7 @@
                                 class="material-icons-round text-white group-hover:text-secondary transition-colors duration-300"
                                 style="font-size: 85px;">flag</span>
                         </div>
-                        <div
-                            class="absolute inset-0 -m-2 border border-secondary/30 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500 ease-out">
-                        </div>
+                        <!-- removed expanding hover rings -->
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">Purpose
                     </h3>
@@ -152,9 +131,7 @@
                                 class="material-icons-round text-white group-hover:text-secondary transition-colors duration-300"
                                 style="font-size: 55px;">psychology</span>
                         </div>
-                        <div
-                            class="absolute inset-0 -m-2 border border-secondary/30 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500 ease-out">
-                        </div>
+                        <!-- removed expanding hover rings -->
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">
                         Potential</h3>
@@ -172,11 +149,9 @@
                             </div>
                             <span
                                 class="material-icons-round text-white group-hover:text-secondary transition-colors duration-300"
-                                style="font-size: 70px;">rocket_launch</span>
+                                style="font-size: 70px;">trending_up</span>
                         </div>
-                        <div
-                            class="absolute inset-0 -m-2 border border-secondary/30 rounded-full scale-90 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-500 ease-out">
-                        </div>
+                        <!-- removed expanding hover rings -->
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">
                         Possibility</h3>

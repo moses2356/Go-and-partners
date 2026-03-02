@@ -1,8 +1,8 @@
-<section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
+<section id="who-we-are" class="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 z-0">
         <img alt="Professional corporate team collaborating"
-            class="w-full h-full object-cover filter brightness-[0.7] dark:brightness-[0.4]" data-reveal="fade-in"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2NVrfgyaUou5-GGpryT4Ti0M0E2V3J2yhkIEnJOMS2kSompn4A1ZPTJtzxeoL7X46jLP92AK75E0RsIHLhSGQ7TOosVlwTtuu55v-oYvz9mZIvxldafzCzhUBhdXsPVaZIwxdJwwh4Wfi-mjZj-KPBPnXGP6X5AIzperCrrNEqWxjbZjRB0L7qtv1huNWvsB6QDENRiOJeC_HlVOTDTGYiUpI1EvV8F0NK9nbjp7-PULwqmV4mvTckJEoT8VRArhJsnYJNKatYR4" />
+            class="w-full h-full object-cover filter brightness-[0.7] dark:brightness-[0.4] blur-md"
+            data-reveal="fade-in" src="{{ asset('images/who weare.webp') }}" />
         <div class="absolute inset-0 bg-primary/20 backdrop-blur-[2px]"></div>
     </div>
 
